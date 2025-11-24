@@ -5,5 +5,11 @@ class Main {
 
         int x = 10;
         System.out.println("Значение x = " + x);
+
+        printMessage();
+    }
+
+    public static void printMessage() {
+        System.out.println("Метод вызван (коммит 3)");
     }
 }
