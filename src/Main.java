@@ -7,6 +7,10 @@ class Main {
         System.out.println("Значение x = " + x);
 
         printMessage();
+
+        for (int i = 1; i <= 3; i++) {
+            System.out.println("Цикл: шаг " + i);
+        }
     }
 
     public static void printMessage() {
